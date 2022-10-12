@@ -24,5 +24,7 @@ while(distance>10)
     }
     distance = distance - (firstfriendspeed + secondfriendspeed) * time;
     count = count + 1;
+    Console.WriteLine(" Дистаниция " + distance);
+    Console.WriteLine(" Сколько пробежала собака раз " + count);
 }
 Console.WriteLine("Собака пробежит " + count + " раз");
