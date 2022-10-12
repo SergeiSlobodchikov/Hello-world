@@ -1,13 +1,13 @@
 ﻿Console.Clear();
 int count = 0;
 Console.WriteLine("Введите расстояние (м)");
-double distance = Convert.ToInt32(Console.ReadLine());
+double distance = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите скорость 1-го друга (м/с)"); 
-double firstfriendspeed = Convert.ToInt32(Console.ReadLine()); 
+double firstfriendspeed = Convert.ToDouble(Console.ReadLine()); 
 Console.WriteLine("Введите скорость 2-го друга (м/с)"); 
-double secondfriendspeed = Convert.ToInt32(Console.ReadLine()); 
+double secondfriendspeed = Convert.ToDouble(Console.ReadLine()); 
 Console.WriteLine("Введите скорость собаки (м/с)"); 
-double dogspeed = Convert.ToInt32(Console.ReadLine()); 
+double dogspeed = Convert.ToDouble(Console.ReadLine()); 
 int friend = 2;
 double time = 0;
 while(distance>10)
