@@ -8,12 +8,12 @@ double time = 0;
 
 while(distance > 10)
 {
-    while(friend==1)
+    if(friend==1)
     {
         time = (distance/(firstfriendspeed+dogspeed));
         friend = 2;
     }
-    while(friend==2)
+    if(friend==2)
     {
         time = (distance/(secondfriendspeed+dogspeed));
         friend = 1;
