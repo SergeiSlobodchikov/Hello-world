@@ -10,7 +10,7 @@ Console.WriteLine("Введите скорость собаки (м/с)");
 double dogspeed = Convert.ToDouble(Console.ReadLine()); 
 int friend = 2;
 double time = 0;
-while(distance>10)
+while(distance>1)
 {
     if(friend==1)
     {
