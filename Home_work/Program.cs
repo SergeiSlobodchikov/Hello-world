@@ -27,7 +27,7 @@ while(distance>1)
     }
     distance = distance - (firstfriendspeed + secondfriendspeed) * time;
     count = count + 1;
-    Console.WriteLine(" Дистаниция между друзьями " + distance);
+    Console.WriteLine(" Дистаниция между друзьями " + Math.Round(distance, 2) + "м" );
     Console.WriteLine(" Сколько пробежала собака " + count + " раз");
     Console.WriteLine();
 }
