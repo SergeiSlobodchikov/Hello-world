@@ -3,9 +3,9 @@ Console.WriteLine("Введите число для проверки четно�
 int x = Convert.ToInt32(Console.ReadLine());
         if ((x % 2) == 0)
         {
-            Console.WriteLine("четное");
+            Console.WriteLine(x +" четное");
         }
         else
         {
-            Console.WriteLine("нечетное");
+            Console.WriteLine(x +" нечетное");
         }
