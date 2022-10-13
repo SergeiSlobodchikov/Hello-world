@@ -10,6 +10,9 @@ Console.WriteLine("Введите скорость собаки (м/с)");
 double dogspeed = Convert.ToDouble(Console.ReadLine()); 
 int friend = 2;
 double time = 0;
+Console.WriteLine(" Дистаниция между друзьями " + distance);
+Console.WriteLine(" Сколько пробежала собака " + count + " раз");
+Console.WriteLine();
 while(distance>1)
 {
     if(friend==1)
@@ -24,7 +27,9 @@ while(distance>1)
     }
     distance = distance - (firstfriendspeed + secondfriendspeed) * time;
     count = count + 1;
-    Console.WriteLine(" Дистаниция " + distance);
-    Console.WriteLine(" Сколько пробежала собака раз " + count);
+    Console.WriteLine(" Дистаниция между друзьями " + distance);
+    Console.WriteLine(" Сколько пробежала собака " + count + " раз");
+    Console.WriteLine();
 }
 Console.WriteLine("Собака пробежит " + count + " раз");
+Console.WriteLine();
