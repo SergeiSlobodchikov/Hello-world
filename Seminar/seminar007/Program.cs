@@ -2,7 +2,7 @@
 Console.Clear();
 Console.Write("Введите число от 1 до 7: ");
 int i = Math.Abs((Convert.ToInt32(Console.ReadLine())));
-while (i > 0)
+while (i >= 0)
 {
 if (i == 1)
 {
