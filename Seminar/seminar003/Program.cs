@@ -1,4 +1,5 @@
-﻿Console.Write("Введите трехзначное число: ");
+﻿Console.Clear();
+Console.Write("Введите трехзначное число: ");
 int num = Math.Abs((Convert.ToInt32(Console.ReadLine())));
 if (num > 99 && num <= 999)
 {

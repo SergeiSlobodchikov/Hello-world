@@ -7,7 +7,7 @@ Console.Write("Введите число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 int sqrt1 = Convert.ToInt32(Math.Pow(number1, 2));
 int sqrt2 = Convert.ToInt32(Math.Pow(number2, 2));
-if(sqrt1==number2 ^ sqrt2==number1)
+if (sqrt1 == number2 ^ sqrt2 == number1)
 {
     Console.WriteLine("Да");
 }
