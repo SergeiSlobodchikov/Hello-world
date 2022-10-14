@@ -9,4 +9,4 @@ while (i < N - 1)
     x = x + 1;
     Console.WriteLine(x + ". " + i);
 }
-Console.WriteLine("Конец четных чисел");
+Console.WriteLine("Конец");
